@@ -15,17 +15,9 @@
 
 1. Sorting Algorithms
 2. Searching Algorithms
+  
 
-
-Steps to contribute to this repository 👇👇👇
-
-1. Star the repo
-2. Fork the repo
-3. Clone it to you local machine or create a different branch for your copy version of the repository.
-4. Write Code and contribute 😊.
-5. Create pull request, after that I will review and merge it.  
-
-Some Guidelines to this particular repository 👇👇👇
+## Some Guidelines to this particular repository 👇👇👇
 
 
 1. You are only allowed to contribute in C, Java, C++, Python.
