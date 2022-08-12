@@ -1,0 +1,20 @@
+For Linear Search we will take an array K
+Suppose we wish to search for element a
+We will use looping structure to get our output.
+
+Thus,
+
+LinearSearch(K,a)
+
+Step 1: Set i to 1
+Step 2: if i > n
+	  move to STEP 7
+Step 3: if K[i] = a  
+	  go to STEP 6
+Step 4: Increment i/i++
+Step 5: Repeat from STEP 2
+Step 6: Print a is found at index i 
+        move to STEP 8
+Step 7: ELSE
+	  Print element is not found
+Step 8: Exit
