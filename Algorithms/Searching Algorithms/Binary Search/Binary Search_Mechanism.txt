@@ -1,0 +1,66 @@
+Binary Search has necessity that the provided Array should be in sorted format.
+It has two methods in which in can be solved.
+1. Iterative
+2. Recursive 
+
+Working of Binary Search:
+Suppose we have an Array A and element to be found is x.
+
+1. It goes to the index present in the middle [(first+last)/2]
+2. Then it is checked if A[middle] is equal to x(the element to be found)
+	If found, the index/position will be returned.
+3. If element is not found at A[middle], then a comparison is made to 
+	check if x>A[middle] or not
+4. If element is greater, the problem is divided into
+	[0 to middle] and [middle+1 to n] <- (element will be found in this partition)
+   middle+1 now becomes our first index to find the element and n is our last index	
+5. If element is lesser, the problem is divided into
+	[0 to middle-1] <- (element will be found in this partition) and [middle to n]
+   Here 0 is our first index and middle-1 is now the last index for our element to be found
+6. Further, the process is repeated from STEP 2. 
+
+
+
+
+This is the basic explanation for the working of Binary Search.
+
+Algorithm for Binary Search:
+
+1. Iterative Method:
+
+Step 1: Make a function for Binary Search:
+binarySearch(Array, element_to_be_found, low, high)
+Step 2: while low <= high - when this becomes false move to STEP 6
+{inside the loop}
+            do mid = (low + high)/2
+Step 3: if (x == arr[mid])
+            return mid
+   
+Step 4: else if (element_to_be_found > arr[mid]) // the element to be found is greater than mid
+            low = mid + 1
+   
+Step 5: else // the element to be found is lesser than mid 
+            high = mid - 1
+Step 6: Exit the loop 
+
+
+2. Recursive Method:
+
+Step 1: Make a function for Binary Search:
+binarySearch(Array, element_to_be_found, low, high)
+Step 2: If low>high
+		return -1
+		break
+Step 3: repeat till low <= high 
+            do mid = (low + high)/2
+Step 4: if (x == arr[mid])
+            return mid
+   
+Step 5: else if (element_to_be_found > arr[mid]) // the element to be found is greater than mid
+            binarySearch(Array, element_to_be_found, mid+1, high)
+   
+Step 6: else // the element to be found is lesser than mid 
+            binarySearch(Array, element_to_be_found, low, mid-1)
+Step 7: Exit the loop 
+
+// The explanation is written by krupalitrivedi, please reach out in case of queries. 
