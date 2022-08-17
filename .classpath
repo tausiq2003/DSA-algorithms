@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Algorithms/Searching Algorithms/Binary Search"/>
+	<classpathentry kind="src" path="Algorithms/Sorting Algorithms/Merge Sort"/>
+	<classpathentry kind="src" path="Algorithms/Searching Algorithms/Linear Search"/>
+	<classpathentry kind="src" path="Algorithms/Sorting Algorithms/Bubble Sort"/>
+	<classpathentry kind="src" path="Algorithms/Sorting Algorithms/Cyclic Sort"/>
+	<classpathentry kind="src" path="Algorithms/Sorting Algorithms/Insertion Sort"/>
+	<classpathentry kind="src" path="Algorithms/Sorting Algorithms/Selection Sort"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
