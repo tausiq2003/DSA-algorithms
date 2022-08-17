@@ -15,6 +15,16 @@
 
 1. Sorting Algorithms
 2. Searching Algorithms
+---
+> Sorting Algorithms
+- Bubble Sort
+- Cyclic Sort
+- Insertion Sort
+- Selection Sort
+
+> Searching Algorithms
+- Linear Search
+- Binary Search
   
 
 ## Some Guidelines to this particular repository 👇👇👇
