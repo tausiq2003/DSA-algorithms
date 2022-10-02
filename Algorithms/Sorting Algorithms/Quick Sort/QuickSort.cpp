@@ -1,3 +1,5 @@
+/*Problem of Quick Sort algorithm*/
+
 #include <iostream>
 using namespace std;
 // Funtio to Swap two elements 
@@ -67,3 +69,9 @@ int main()
     displayArray(arr,size); 
     return 0; 
 }
+
+/* Case-1
+Input: 5
+8 7 2 9 0
+Output: 0 2 7 8 9
+*/
