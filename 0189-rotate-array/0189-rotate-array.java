@@ -7,9 +7,9 @@ class Solution {
         if (k>nums.length){
             k = k%nums.length;
         }
-        swap(nums, 0, nums.length-1);
+        if (nums.length > 1){swap(nums, 0, nums.length-1);
         swap(nums,0, k-1);
-        swap(nums,k, nums.length-1);
+        swap(nums,k, nums.length-1);}
     
     }
     public void swap(int[] arr, int start, int end){
