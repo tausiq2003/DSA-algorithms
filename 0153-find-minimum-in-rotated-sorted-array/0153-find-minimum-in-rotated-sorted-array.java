@@ -20,10 +20,10 @@ class Solution {
             if (nums[a] < nums[mid]){
                 return nums[a];
             }
-            else if(nums[b] >= nums[mid]){
+            else if(nums[b] > nums[mid]){
                 return nums[mid];
             }
-            else if(nums[mid] > nums[0] && !(nums[0] < nums[nums.length-1])){
+            else if(nums[mid] >= nums[0] && !(nums[0] < nums[nums.length-1])){
                 start = mid + 1;
             }
             else{
