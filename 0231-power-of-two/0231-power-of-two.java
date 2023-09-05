@@ -14,7 +14,6 @@ class Solution {
 //         }
 //         return isPowerOfTwo(n/2);
         // this is an brilliant solution but look at return types yeah that pure luck
-        // System.out.println(recursive(n));
         return recursive(n) % 2 == 0;
         
     }
@@ -22,7 +21,7 @@ class Solution {
         if (n <= 0){
             return 1;
         }
-        if (n < 2){
+        if (n == 1){
             return 0;
 
         }
